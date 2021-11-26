@@ -1,5 +1,5 @@
-Poly HIPAA Compliance Policies 
-© 2021 Poly, LLC 
+Poly HIPAA Compliance Policies\
+© 2021 Poly, LLC\
 Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
 
 These documents are adapted from two Datica Health, Inc repositories on GitHub. These repositories listed below have two different licenses as of this writing (11-22-2021). The CC BY-SA 4.0 license is the more restrictive of the two requiring the adapted material in <a href="https://github.com/poly-llc/policy" a>this repository</a> to be released using the same license.
