@@ -31,6 +31,9 @@ export default {
       default: true
     }
   },
+  mounted() {
+    this.$store.commit('closeSidebar')
+  }
 }
 </script>
 

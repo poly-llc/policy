@@ -14,7 +14,6 @@
   </Layout>
 </template>
 
-
 <static-query>
 query {
   metadata {
@@ -29,11 +28,6 @@ import Shortcut from '~/components/Shortcut.vue'
 export default {
   components: {
     Shortcut
-  },
-  data() {
-    return {
-      description: 'The ultimate static generated documentation theme for the JAM-stack'
-    }
   },
   metaInfo: {
     title: 'HIPAA Compliance Policies',
