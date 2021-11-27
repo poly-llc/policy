@@ -100,10 +100,10 @@ export default {
 <style lang="scss" scoped>
 .sidebar {
   transition: background .15s ease-in-out, transform .15s ease-in-out, border-color .15s linear;
-  padding: 100px 30px 30px;
+  padding: 70px 30px 30px;
   width: $sidebarWidth;
   position: fixed;
-  top: 0;
+  top: 30px;
   bottom: 0;
   left: 0;
   z-index: 9;
@@ -197,6 +197,7 @@ ul {
 
   &.current {
     opacity: 1;
+    color: $brandPrimary;
     font-weight: bold;
     &::after {
       opacity: 1;
