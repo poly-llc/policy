@@ -47,7 +47,7 @@ export default {
 h1 {
   text-align: center;
   max-width: 600px;
-  margin: 1.5em auto 1.5em;
+  margin: 1em auto 1em;
 
   @include respond-above(md) {
     max-width: 1000px;
@@ -75,7 +75,7 @@ p.lead {
 }
 
 .sitelink {
-  margin: 1rem;
+  margin: 2rem;
   text-align: center;
   a {
     font-weight: bold;
