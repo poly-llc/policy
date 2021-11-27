@@ -196,6 +196,8 @@ ul {
   }
 
   &.current {
+    opacity: 1;
+    font-weight: bold;
     &::after {
       opacity: 1;
     }
