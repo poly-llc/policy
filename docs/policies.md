@@ -1,7 +1,7 @@
 ---
-title: "Compliance Policies"
-metaDescription: "The goal of this policy is to guide and direct Datica workforce members on how to defend its assets against internal, external, deliberate or accidental threats."
-date: 2018-09-15 07:42:34
+title: "3. HIPAA Policies"
+metaDescription: "The goal of this policy is to guide and direct Poly workforce members on how to defend its assets against internal, external, deliberate or accidental threats."
+date: 2021-11-27 12:19:34
 slug: policies
 ---
 

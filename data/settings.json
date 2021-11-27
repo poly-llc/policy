@@ -1,15 +1,24 @@
 {
   "sidebar": [
     {
-      "section": "Introduction",
+      "section": "Purpose and Scope",
       "topics": [
         {
-          "title": "Purpose and Scope",
+          "title": "1. Purpose and Scope",
           "slug": "purpose"
+        }
+      ]
+    },
+    {
+      "section": "Roles and Responsibilities",
+      "topics": [
+        {
+          "title": "2. Compliance Officers",
+          "slug": "roles"
         },
         {
-          "title": "Roles and Responsibilities",
-          "slug": "roles"
+          "title": "3. Workforce Members",
+          "slug": "template"
         }
       ]
     },
@@ -17,8 +26,85 @@
       "section": "Policies",
       "topics": [
         {
-          "title": "Policies",
-          "slug": "policies"
+          "title": "4. Policy Management",
+          "slug": "template"
+        },
+        {
+          "title": "5. Risk Management",
+          "slug": "template"
+        },
+        {
+          "title": "6. Data Management",
+          "slug": "template"
+        },
+        {
+          "title": "7. System Access",
+          "slug": "template"
+        },
+        {
+          "title": "8. Auditing",
+          "slug": "template"
+        },
+        {
+          "title": "9. Configuration Management",
+          "slug": "template"
+        },
+        {
+          "title": "10. Facility Access",
+          "slug": "template"
+        },
+        {
+          "title": "11. Incident Response",
+          "slug": "template"
+        },
+        {
+          "title": "12. Breach",
+          "slug": "template"
+        },
+        {
+          "title": "13. Disaster Recovery",
+          "slug": "template"
+        },
+        {
+          "title": "14. Disposable Media",
+          "slug": "template"
+        },
+        {
+          "title": "15. Intrusion Detection",
+          "slug": "template"
+        },
+        {
+          "title": "16. Vulnerability Scanning",
+          "slug": "template"
+        },
+        {
+          "title": "17. Data Integrity",
+          "slug": "template"
+        },
+        {
+          "title": "18. Data Retention",
+          "slug": "template"
+        },
+        {
+          "title": "19. Approved Tools",
+          "slug": "template"
+        },
+        {
+          "title": "20. Third Party",
+          "slug": "template"
+        }
+      ]
+    },
+    {
+      "section": "Appendix",
+      "topics": [
+        {
+          "title": "21. Key Definitions",
+          "slug": "template"
+        },
+        {
+          "title": "22. Poly HIPAA Business Associate Agreement (\"BAA\")",
+          "slug": "template"
         }
       ]
     }
