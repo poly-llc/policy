@@ -7,7 +7,7 @@
             <ul>
               <li v-for="item in node.topics" :key="item.title">
                 <g-link class="topic" :to="'/' + item.slug">{{item.title}}</g-link>
-                <ul v-if="checkAnchors(node.slug, item.slug)" v-for="{ node } in $static.docs.edges" :key="node.id">
+                <ul class='sub-topics' v-if="checkAnchors(node.slug, item.slug)" v-for="{ node } in $static.docs.edges" :key="node.id">
                   <li v-for="heading in node.headings" :key="heading.value">
                     <a class="sub-topic" :href="'/' + item.slug + heading.anchor">{{heading.value}}</a>
                   </li>
@@ -75,10 +75,10 @@ export default {
 
       mainNavLinks.forEach(link => {
         let section = document.querySelector(link.hash)
-        let allCurrent = document.querySelectorAll('.current'), i
+        let allCurrent = document.querySelectorAll('.current')
 
         if (section.offsetTop <= fromTop) {
-          for (i = 0; i < allCurrent.length; ++i) {
+          for (let i = 0; i < allCurrent.length; ++i) {
             allCurrent[i].classList.remove('current')
           }
           link.classList.add('current')
@@ -156,7 +156,7 @@ ul {
 }
 
 .section {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .section-title {
@@ -170,6 +170,10 @@ ul {
 
 .topic {
   font-weight: 700;
+}
+
+.sub-topics {
+  margin-bottom: 1rem;
 }
 
 .sub-topic {
@@ -192,17 +196,9 @@ ul {
   }
 
   &.current {
-    opacity: 1;
-    font-weight: bold;
     &::after {
       opacity: 1;
     }
   }
-}
-
-.git {
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 </style>

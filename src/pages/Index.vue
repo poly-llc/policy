@@ -69,15 +69,6 @@ nav {
   }
 }
 
-.git {
-  margin: 3em 0 0;
-  align-self: center;
-
-  @include respond-above(md) {
-    margin: 5em 0 0;
-  }
-}
-
 p.lead {
   margin: 1rem auto 3rem auto;
   max-width: 50em;
