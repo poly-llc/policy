@@ -1,15 +1,10 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
-    </header>
-    <slot/>
+  <div class="site">
+    <Header :menuToggle="sidebar" />
+    <Sidebar v-if="sidebar" />
+    <main class="main" :class="{'main--no-sidebar': !sidebar, 'main--sidebar-is-open' : this.$store.state.sidebarOpen}">
+      <slot/>
+    </main>
   </div>
 </template>
 
@@ -21,30 +16,53 @@ query {
 }
 </static-query>
 
-<style>
-body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
+<script>
+import Header from '~/components/Header.vue'
+import Sidebar from '~/components/Sidebar.vue'
+
+export default {
+  components: {
+    Header,
+    Sidebar
+  },
+  props: {
+    sidebar: {
+      type: Boolean,
+      default: true
+    }
+  },
+}
+</script>
+
+<style lang="scss" scoped>
+.site {
+  overflow: hidden;
 }
 
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+.main {
+  padding: 100px 30px 30px 30px;
+  max-width: 800px;
+  transition: transform .15s ease-in-out;
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
+  @include respond-above(sm) {
+    padding: 100px 30px 30px;
+    transform: translateX(300px);
+    width: calc(100% - 300px);
+  }
 
-.nav__link {
-  margin-left: 20px;
+  @include respond-above(md) {
+    padding: 100px 80px 30px;
+  }
+
+  &--no-sidebar {
+    transform: translate(0);
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+  }
+
+  &--sidebar-is-open {
+    transform: translate(300px);
+  }
 }
 </style>

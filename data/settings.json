@@ -1,0 +1,26 @@
+{
+  "sidebar": [
+    {
+      "section": "Introduction",
+      "topics": [
+        {
+          "title": "Purpose and Scope",
+          "slug": "purpose"
+        },
+        {
+          "title": "Roles and Responsibilities",
+          "slug": "roles"
+        }
+      ]
+    },
+    {
+      "section": "Policies",
+      "topics": [
+        {
+          "title": "Policies",
+          "slug": "policies"
+        }
+      ]
+    }
+  ]
+}
