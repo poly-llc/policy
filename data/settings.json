@@ -4,7 +4,7 @@
       "section": "Purpose and Scope",
       "topics": [
         {
-          "title": "1. Purpose and Scope",
+          "title": "Purpose and Scope",
           "slug": "purpose"
         }
       ]
@@ -13,12 +13,16 @@
       "section": "Roles and Responsibilities",
       "topics": [
         {
-          "title": "2. Compliance Officers",
-          "slug": "roles"
+          "title": "Security Officer",
+          "slug": "security-officer"
         },
         {
-          "title": "3. Workforce Members",
-          "slug": "template"
+          "title": "Privacy Officer",
+          "slug": "privacy-officer"
+        },
+        {
+          "title": "Workforce Members",
+          "slug": "workforce-members"
         }
       ]
     },
@@ -26,71 +30,71 @@
       "section": "Policies",
       "topics": [
         {
-          "title": "4. Policy Management",
+          "title": "Policy Management",
           "slug": "template"
         },
         {
-          "title": "5. Risk Management",
+          "title": "Risk Management",
           "slug": "template"
         },
         {
-          "title": "6. Data Management",
+          "title": "Data Management",
           "slug": "template"
         },
         {
-          "title": "7. System Access",
+          "title": "System Access",
           "slug": "template"
         },
         {
-          "title": "8. Auditing",
+          "title": "Auditing",
           "slug": "template"
         },
         {
-          "title": "9. Configuration Management",
+          "title": "Configuration Management",
           "slug": "template"
         },
         {
-          "title": "10. Facility Access",
+          "title": "Facility Access",
           "slug": "template"
         },
         {
-          "title": "11. Incident Response",
+          "title": "Incident Response",
           "slug": "template"
         },
         {
-          "title": "12. Breach",
+          "title": "Breach",
           "slug": "template"
         },
         {
-          "title": "13. Disaster Recovery",
+          "title": "Disaster Recovery",
           "slug": "template"
         },
         {
-          "title": "14. Disposable Media",
+          "title": "Disposable Media",
           "slug": "template"
         },
         {
-          "title": "15. Intrusion Detection",
+          "title": "Intrusion Detection",
           "slug": "template"
         },
         {
-          "title": "16. Vulnerability Scanning",
+          "title": "Vulnerability Scanning",
           "slug": "template"
         },
         {
-          "title": "17. Data Integrity",
+          "title": "Data Integrity",
           "slug": "template"
         },
         {
-          "title": "18. Data Retention",
+          "title": "Data Retention",
           "slug": "template"
         },
         {
-          "title": "19. Approved Tools",
+          "title": "Approved Tools",
           "slug": "template"
         },
         {
-          "title": "20. Third Party",
+          "title": "Third Party",
           "slug": "template"
         }
       ]
@@ -99,11 +103,11 @@
       "section": "Appendix",
       "topics": [
         {
-          "title": "21. Key Definitions",
+          "title": "Key Definitions",
           "slug": "template"
         },
         {
-          "title": "22. Poly HIPAA Business Associate Agreement (\"BAA\")",
+          "title": "Poly HIPAA Business Associate Agreement (\"BAA\")",
           "slug": "template"
         }
       ]
