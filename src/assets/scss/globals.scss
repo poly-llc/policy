@@ -64,11 +64,11 @@ a {
 
 .mask {
   &-bottom {
-    mask: linear-gradient(0deg, rgba(0,0,0,0) 3%, rgba(0,0,0,1) 20%);
-    -webkit-mask: linear-gradient(0deg, rgba(0,0,0,0) 6%, rgba(0,0,0,1) 13%);
+    mask: linear-gradient(0deg, rgba(0,0,0,0) 40px, rgba(0,0,0,1) 90px);
+    -webkit-mask: linear-gradient(0deg, rgba(0,0,0,0) 40px, rgba(0,0,0,1) 90px);
   }
   &-top {
-    mask: linear-gradient(180deg, rgba(0,0,0,0) 3%, rgba(0,0,0,1) 20%);
-    -webkit-mask: linear-gradient(180deg, rgba(0,0,0,0) 6%, rgba(0,0,0,1) 13%);
+    mask: linear-gradient(180deg, rgba(0,0,0,0) 40px, rgba(0,0,0,1) 90px);
+    -webkit-mask: linear-gradient(180deg, rgba(0,0,0,0) 40px, rgba(0,0,0,1) 90px);
   }
 }
